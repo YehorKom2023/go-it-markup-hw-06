@@ -1,0 +1,132 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --section-header-color: #2e2f42;
+  --accent-color: #404bbf;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #e5e5e5;
+  --tertiary-background-color: #2e2f42;
+  --quaternary-background-color: #f4f4fd;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.container {
+  min-width: 320px;
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobilecont {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.span {
+  color: #2e2f42;
+}
+.mob-header-link {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  height: 24px;
+  margin-left: 16px;
+  top: 24px;
+}
+.mob-header-btn {
+  display: block;
+  cursor: pointer;
+  border: none;
+  width: 32px;
+  height: 22px;
+  margin-right: 24px;
+  margin-left: auto;
+}
+/* Hero- mobile */
+.hero-mob-div {
+  background: #2e2f42;
+  padding: 0 15px;
+}
+.hero-mob-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-top: 112px;
+  /* margin-bottom: 72px;
+  margin-top: 112px;
+  margin-left: 54px;
+  margin-right: 54px; */
+  /* width: 320px;
+  height: 80px; */
+}
+.hero-mob-btn {
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 129px;
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 112px;
+}
