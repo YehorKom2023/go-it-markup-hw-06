@@ -97,6 +97,82 @@ body {
   margin-right: 16px;
   margin-left: auto;
 }
+/* Mobil menu */
+.mobil-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.close-menu {
+}
+.mobil-menu-list {
+  padding-top: 80px;
+  
+  
+}
+.list {
+}
+.mobil-menu-item {
+}
+.mobil-menu-link {
+  font-size: 36px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02;
+text-transform: capitalize;
+
+
+}
+.in-activ {
+}
+.link {
+}
+.mobil-menu-address {
+}
+.mobil-adress-list {
+}
+.mobil-adress-contact {
+}
+.mobil-address {
+}
+.social-list-mobil {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  width: 100%;
+}
+.social-item-mobil {
+  width: 40px;
+  height: 40px;
+}
+.social-link-mobil {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-mobil:hover {
+  background-color: #404bbf;
+}
+.social-link-mobil:focus {
+  background-color: #404bbf;
+}
+.socialsvg {
+}
 /* Hero- mobile */
 .hero-mobile {
   background: #2e2f42;
