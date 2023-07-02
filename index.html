@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="header">
@@ -22,14 +23,42 @@
         <a class="mob-header-link" href="#"
           >Web<span class="span">Studio</span></a
         >
-        <button class="mob-header-btn" type="button">
+        <ul class="main-header-list list">
+            <li class="header-item">
+              <a class="header-link in-activ link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link in-activ link" href="">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link in-activ link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-list list">
+            <li class="header-item-contact">
+              <a class="link-address link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-item-contact">
+              <a class="link-address link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button class="mob-header-btn" type="button" data-menu-open>
           <svg width="29.54" height="18.62">
             <use href="./images/icons.svg#icon-menu-btn"></use>
           </svg>
         </button>
       </div>
-      <div class="mobil-menu">
-        <button class="modal-btn" data-modal-close type="button">
+      <div class="mobil-menu container is-hidden" data-menu>
+        <button class="modal-btn" data-menu-close type="button">
           <svg class="modal-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -41,7 +70,7 @@
             >
           </li>
           <li class="mobil-menu-item">
-            <a class="mobil-menu-link link" href="./portfolio.html"
+            <a class="mobil-menu-link link" href=""
               >Portfolio</a
             >
           </li>
@@ -53,13 +82,15 @@
           <address class="mobil-menu-address">
             <ul class="mobil-adress-list list">
               <li class="mobil-adress-contact">
-                <a class="mobil-address link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
+                <a class="mobil-address-tell link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="mobil-adress-contact">
-                <a class="mobil-address link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
+                <a
+                  class="mobil-address-mail link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
               </li>
             </ul>
@@ -517,5 +548,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
