@@ -98,12 +98,12 @@ body {
   margin-left: auto;
 }
 @media screen and (max-width: 768px) {
-  .main-header-list{
-  display: none;
-}
-.header-address{
-  display: none;
-}
+  .main-header-list {
+    display: none;
+  }
+  .header-address {
+    display: none;
+  }
 }
 
 /* Mobil menu */
@@ -137,7 +137,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .in-activ {
@@ -150,6 +150,7 @@ body {
 .mobil-adress-list {
 }
 .mobil-adress-contact {
+  margin-bottom: 40px;
 }
 .mobil-address-tell {
   font-size: 36px;
@@ -161,7 +162,6 @@ body {
   text-transform: capitalize;
   color: #4d5ae5;
   width: 100%;
-  margin-bottom: 40px;
 }
 .mobil-address-mail {
   font-size: 20px;
@@ -201,10 +201,17 @@ body {
 }
 .socialsvg {
 }
+.block-contacts {
+  margin-top: auto;
+}
 /* Hero- mobile */
 .hero-mobile {
   background: #2e2f42;
   padding: 0 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-mob-div {
   display: flex;
@@ -236,14 +243,19 @@ body {
   margin-bottom: 112px;
 }
 /* About */
+.feature-icons {
+  display: none;
+}
 .about-mobile {
   padding-top: 96px;
   padding-bottom: 96px;
 }
 .about-list-mobile {
   /* display: inline-flex;
-  flex-direction: column;
-  gap: 72px; */
+  flex-direction: column; */
+}
+.about-item-mobile {
+  margin-bottom: 72px;
 }
 .about-title-mobile {
   font-weight: 700;
@@ -262,6 +274,7 @@ body {
   color: #434455;
   height: 48px;
 }
+
 /* Team */
 .team-mobile {
   background: #f4f4fd;
@@ -403,8 +416,10 @@ body {
   fill: currentColor;
 }
 /* Footer */
-.footercont {
+.footer {
   background: #2e2f42;
+}
+.footercont {
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -414,7 +429,7 @@ body {
   justify-content: center;
 }
 .footerlogo {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -452,7 +467,7 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 12px;
+  line-height: 24px;
   letter-spacing: 0.32px;
   text-align: center;
   margin-bottom: 16px;
@@ -477,7 +492,7 @@ body {
 .footer-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 .form {
   display: inline-block;

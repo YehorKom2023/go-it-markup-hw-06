@@ -6,6 +6,11 @@
   .mob-header-btn {
     display: none;
   }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
   .main-header-list {
     display: flex;
     gap: 40px;
@@ -52,16 +57,166 @@
     line-height: 14px;
     letter-spacing: 0.48px;
   }
-  .header-item-contact{
+  .header-item-contact {
     margin-bottom: 12px;
   }
-  .header-list{
+  .header-list {
     padding-top: 16px;
   }
   /* About */
-  .about-list-mobile{
+  .feature-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .about-list-mobile {
     display: flex;
     flex-wrap: wrap;
+    gap: 72px 24px;
+    margin: 0;
+  }
+  .about-title-mobile {
+    text-align: start;
+  }
+  .about-item-mobile {
+    width: calc((100% - 24px) / 2);
+  }
 
+  /* Our team */
+  .team-list-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px 24px;
+    margin: 0;
+  }
+  .team-item-mobile {
+    width: calc((100% - 24px) / 2);
+  }
+  /* Customers */
+  .cust-item-mobile {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+    margin-bottom: 72px;
+  }
+  /* Footer */
+  .footercont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 108px;
+    justify-content: unset;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerlogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mob-footer-link {
+    margin-bottom: 17.5px;
+  }
+  .btn-form {
+    margin-left: 16px;
+  }
+  .footer-h {
+    text-align: unset;
+  }
+  .footer-p {
+    text-align: unset;
+  }
+  .p-form {
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  .input-form {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1157px) {
+  .wedo {
+    display: none;
+  }
+}
+
+/* Decktop */
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+  .nav {
+    gap: 76px;
+  }
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+  /* About */
+  .about-item-mobile {
+    width: calc((100% - 72px) / 4);
+  }
+  .about-list-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+  }
+  /* Wedo */
+  .wedo {
+    background: #ffffff;
+    padding-bottom: 120px;
+  }
+  .subtitle {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .wedo-list {
+    display: flex;
+    gap: 24px;
+  }
+  .wedo-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  /* Team */
+  .team-item-mobile {
+    width: calc((100% - 72px) / 4);
+  }
+  /* Customers */
+  .cust-item-mobile {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  /* Footer */
+  .footercont {
+    margin: 0 auto;
   }
 }
