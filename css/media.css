@@ -63,6 +63,25 @@
   .header-list {
     padding-top: 16px;
   }
+  /* Hero tab  */
+  .hero-mobile {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-mobile {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab-bg-2x.jpg);
+    }
+  }
   /* About */
   .feature-icons {
     display: flex;
@@ -175,6 +194,26 @@
     display: flex;
     gap: 40px;
   }
+  /* Hero  */
+  .hero-mobile {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-desk.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-mobile {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/desk-office-2x.jpg);
+    }
+  }
   /* About */
   .about-item-mobile {
     width: calc((100% - 72px) / 4);
@@ -218,5 +257,10 @@
   /* Footer */
   .footercont {
     margin: 0 auto;
+    margin-left: 0;
+  }
+  .footer-form {
+  }
+  .footer-social {
   }
 }

@@ -31,10 +31,10 @@
               >
             </li>
             <li class="header-item">
-              <a class="header-link in-activ link" href="">Portfolio</a>
+              <a class="header-link link" href="">Portfolio</a>
             </li>
             <li class="header-item">
-              <a class="header-link in-activ link" href="">Contacts</a>
+              <a class="header-link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -198,10 +198,22 @@
           <h2 class="subtitle">What are we doing</h2>
           <ul class="wedo-list list">
             <li class="wedo-item">
-              <img src="./images/Whatwedo/img1.jpg" alt="no page" width="360" />
+              <img
+                srcset="
+                  ./images/Whatwedo/img1.jpg    1x,
+                  ./images/Whatwedo/img1-2x.jpg 2x
+                "
+                src="./images/Whatwedo/img1.jpg"
+                alt="no page"
+                width="360"
+              />
             </li>
             <li class="wedo-item">
               <img
+                srcset="
+                  ./images/Whatwedo/img2.jpg    1x,
+                  ./images/Whatwedo/img2-2x.jpg 2x
+                "
                 src="./images//Whatwedo/img2.jpg"
                 alt="no page"
                 width="360"
@@ -209,6 +221,10 @@
             </li>
             <li class="wedo-item">
               <img
+                srcset="
+                  ./images/Whatwedo/img3.jpg    1x,
+                  ./images/Whatwedo/img3-2x.jpg 2x
+                "
                 src="./images//Whatwedo/img3.jpg"
                 alt="no page"
                 width="360"
@@ -225,6 +241,7 @@
             <li class="team-item-mobile">
               <img
                 class="team-img"
+                srcset="./images/Team/img.jpg 1x, ./images/Team/img2x.jpg 2x"
                 src="./images/Team/img.jpg"
                 width="264"
                 alt="no photo"
@@ -267,6 +284,10 @@
             <li class="team-item-mobile">
               <img
                 class="team-img"
+                srcset="
+                  ./images/Team/img(1).jpg    1x,
+                  ./images/Team/img(1)-2x.jpg 2x
+                "
                 src="./images/Team/img(1).jpg"
                 width="264"
                 alt="no photo"
@@ -309,6 +330,10 @@
             <li class="team-item-mobile">
               <img
                 class="team-img"
+                srcset="
+                  ./images/Team/img(2).jpg    1x,
+                  ./images/Team/img(2)-2x.jpg 2x
+                "
                 src="./images/Team/img(2).jpg"
                 width="264"
                 alt="no photo"
@@ -351,6 +376,10 @@
             <li class="team-item-mobile">
               <img
                 class="team-img"
+                srcset="
+                  ./images/Team/img(3).jpg    1x,
+                  ./images/Team/img(3)-2x.jpg 2x
+                "
                 src="./images/Team/img(3).jpg"
                 width="264"
                 alt="no photo"
@@ -455,7 +484,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="footer-social">
           <p class="footer-h">Social media</p>
           <ul class="social-list-f">
             <li class="social-item">
