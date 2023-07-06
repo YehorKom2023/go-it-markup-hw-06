@@ -3,6 +3,10 @@
     max-width: 768px;
   }
   /* Header */
+  .modal {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
   .mob-header-btn {
     display: none;
   }
@@ -65,6 +69,8 @@
   }
   /* Hero tab  */
   .hero-mobile {
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -82,20 +88,28 @@
         url(../images/tab-bg-2x.jpg);
     }
   }
+
+  .hero-mob-title {
+    max-width: 496px;
+    font-size: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
   /* About */
   .feature-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
+    display: none;
+  }
+
+  .about-item-mobile {
+    margin-bottom: 0;
   }
   .about-list-mobile {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 24px;
     margin: 0;
   }
   .about-title-mobile {
@@ -111,25 +125,34 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 64px 24px;
-    margin: 0;
+
+    align-items: center;
+    justify-content: center;
   }
   .team-item-mobile {
+    max-width: 264px;
     width: calc((100% - 24px) / 2);
   }
   /* Customers */
+  .cust-list-mobile {
+    gap: 72px 24px;
+  }
   .cust-item-mobile {
-    width: calc((100% - 48px) / 3);
+    width: 168px;
+    /* width: calc((100% - 48px) / 3); */
     height: 88px;
-    margin-bottom: 72px;
   }
   /* Footer */
   .footercont {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+
     padding-left: 108px;
     justify-content: unset;
+  }
+  .footer-social {
+    padding-left: 24px;
   }
   .footer-form {
     display: flex;
@@ -137,7 +160,7 @@
   }
   .footerlogo {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
   }
   .mob-footer-link {
@@ -194,8 +217,18 @@
     display: flex;
     gap: 40px;
   }
+  .header-item-contact {
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
   /* Hero  */
   .hero-mobile {
+    padding-top: 188px;
+    padding-bottom: 188px;
     max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -215,6 +248,23 @@
     }
   }
   /* About */
+  .feature-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .about-title-mobile {
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
   .about-item-mobile {
     width: calc((100% - 72px) / 4);
   }
@@ -246,21 +296,56 @@
     flex-basis: calc((100% - 48px) / 3);
   }
   /* Team */
+
+  .team-list-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px 24px;
+    margin: 0;
+  }
   .team-item-mobile {
     width: calc((100% - 72px) / 4);
   }
   /* Customers */
+  .customers-mobile {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .cust-item-mobile {
     width: calc((100% - 120px) / 6);
     height: 88px;
+    margin-bottom: 0;
   }
   /* Footer */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+
+    justify-content: center;
+  }
   .footercont {
-    margin: 0 auto;
-    margin-left: 0;
+    display: flex;
+
+    justify-content: center;
+    padding-left: 0;
   }
   .footer-form {
   }
   .footer-social {
+    padding-left: 120px;
+  }
+  .footer-p {
+    margin-bottom: 0;
+    max-width: 264px;
+  }
+  .footer-form {
+    padding-left: 80px;
+  }
+  .mob-footer-link {
+  }
+  .social-list-f {
+    margin-bottom: 0;
   }
 }
