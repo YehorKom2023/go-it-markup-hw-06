@@ -124,12 +124,9 @@ body {
   overflow: auto;
   padding-top: 80px;
 }
-.close-menu {
-}
-.mobil-menu-list {
-}
-.list {
-}
+
+
+
 .mobil-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -145,13 +142,11 @@ body {
 .in-activ {
   color: #404bbf;
 }
-.link {
-}
+
 .mobil-menu-address {
   margin-bottom: 48px;
 }
-.mobil-adress-list {
-}
+
 .mobil-adress-contact {
   margin-bottom: 40px;
 }
@@ -201,8 +196,7 @@ body {
 .social-link-mobil:focus {
   background-color: #404bbf;
 }
-.socialsvg {
-}
+
 .block-contacts {
   margin-top: auto;
 }
@@ -274,10 +268,7 @@ body {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.about-list-mobile {
-  /* display: inline-flex;
-  flex-direction: column; */
-}
+
 .about-item-mobile {
   margin-bottom: 72px;
 }
@@ -337,8 +328,7 @@ body {
   gap: 8px;
   height: auto;
 }
-.team-img {
-}
+
 .name-mobile {
   font-weight: 500;
   font-size: 20px;
@@ -441,8 +431,7 @@ body {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.footercont {
-}
+
 .footercont {
   display: flex;
   flex-direction: column;
@@ -694,8 +683,7 @@ body {
 .checkbox {
   margin-bottom: 24px;
 }
-.input-checkbox {
-}
+
 .input-checkbox:checked + .check-label > .span-label {
   background-color: #404bbf;
   border: none;
